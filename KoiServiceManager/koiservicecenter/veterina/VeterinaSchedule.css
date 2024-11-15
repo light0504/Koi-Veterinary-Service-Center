@@ -1,0 +1,42 @@
+.schedule-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.schedule-slot-table-container {
+    overflow-x: auto;
+}
+
+.schedule-slot-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+    .schedule-slot-table th, .slot-table td {
+        padding: 10px 15px;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .schedule-slot-table thead th {
+        text-align: center;
+        background-color: #3498db;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .schedule-slot-table tbody tr:hover {
+        background-color: #f1f9ff;
+        transition: background-color 0.3s ease;
+    }
+
+    .schedule-slot-table button {
+        width: 100px;
+    }

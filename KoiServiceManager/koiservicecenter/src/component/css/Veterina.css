@@ -1,0 +1,73 @@
+/* VeterinaTable.module.css */
+.veterinaTable {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Enable horizontal scrolling for smaller screens */
+}
+
+.veterinaLabel {
+    font-size: 2rem; /* Use relative units for better responsiveness */
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.th,
+.td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    color: #34495e;
+}
+
+.th {
+    background-color: #3498db;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: sticky; /* Keep header fixed on scroll */
+    top: 0; /* Set top position for sticky effect */
+}
+
+.tr:hover {
+    background-color: #ecf0f1;
+    transition: background-color 0.3s;
+}
+
+.tr:nth-child(even) {
+    background-color: #f7f9fa;
+}
+
+.tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.noDoctor {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .veterinaLabel {
+        font-size: 1.5rem; /* Reduce font size on smaller screens */
+    }
+
+    .th,
+    .td {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+}

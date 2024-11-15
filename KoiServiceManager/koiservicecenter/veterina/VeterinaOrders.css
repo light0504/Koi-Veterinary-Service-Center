@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Add border to the table */
+}
+
+    .table th, .table td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid #ddd; /* Border for table cells */
+    }
+
+    .table th {
+        background-color: #f2f2f2;
+    }
+
+/* Accepted Orders Card Styles */
+.accepted-orders {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(33% - 20px); /* Adjust card width and spacing */
+    box-sizing: border-box;
+}
+
+/* General Button Styles */
+.button {
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Button Styles for Each Section */
+.pending-orders .button {
+    background-color: #007BFF; /* Blue for pending orders */
+}
+
+    .pending-orders .button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
+.accepted-orders .button {
+    background-color: #28a745; /* Green for accepted orders */
+}
+
+    .accepted-orders .button:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
+
+.completed-orders .button {
+    background-color: #6c757d; /* Grey for completed orders */
+}
+
+    .completed-orders .button:hover {
+        background-color: #5a6268; /* Darker grey on hover */
+    }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .order-card {
+        width: calc(50% - 20px); /* Two cards per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .order-card {
+        width: 100%; /* Full width on mobile */
+    }
+}

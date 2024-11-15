@@ -1,0 +1,103 @@
+/* src/components/KoiCareService.css */
+
+.service-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    color: #333;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .service-title {
+    color: #d9534f;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .intro-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .service-section, .why-choose-us {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    color: #5cb85c;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item {
+    background-color: #fff;
+    padding: 15px;
+    border-left: 4px solid #0275d8;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .service-item h3 {
+    color: #0275d8;
+    font-size: 20px;
+  }
+  
+  .service-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .why-choose-us ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  .image-placeholder {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+/* src/components/KoiCareService.css */
+
+.booking-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e7f3fe;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-text {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .booking-button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-button:hover {
+    background-color: #4cae4c;
+  }
+    

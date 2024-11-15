@@ -1,0 +1,32 @@
+/* StaffPage.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Adjust based on your layout */
+    margin-bottom: 20px;
+}
+
+    .button-container button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #007bff; /* Example color */
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .button-container button:hover {
+            background-color: #0056b3; /* Darker shade for hover */
+        }
+
+.content {
+    width: 100%; /* Adjust based on your layout */
+}

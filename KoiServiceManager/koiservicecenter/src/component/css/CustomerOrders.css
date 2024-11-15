@@ -1,0 +1,58 @@
+/* CustomerOrders.css */
+.customer-orders {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    display:flex;
+    flex-direction:column;
+}
+
+.orders-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .orders-table th, .orders-table td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .orders-table th {
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    .orders-table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+.cancel-button, .feedback-button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .cancel-button:hover, .feedback-button:hover {
+        background-color: #218838;
+    }
+
+.accepted-message, .feedback-thank-you {
+    margin: 0;
+    padding: 0;
+    color: #555;
+}
+
+.toast-container {
+    z-index: 9999; /* Ensure toast notifications appear above other elements */
+}

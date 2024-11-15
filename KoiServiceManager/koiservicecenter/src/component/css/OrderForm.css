@@ -1,0 +1,204 @@
+/* General container styling for orders-form */
+.orders-form {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+    .orders-form .orders-title {
+        font-size: 2rem;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .orders-form .section {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #fafafa;
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+    }
+
+    .orders-form .slot-table-container {
+        overflow-x: auto;
+    }
+
+    .orders-form .slot-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+
+        .orders-form .slot-table th, .orders-form .slot-table td {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .orders-form .slot-table thead th {
+            text-align: center;
+            background-color: #3498db;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        .orders-form .slot-table tbody tr:hover {
+            background-color: #f1f9ff;
+            transition: background-color 0.3s ease;
+        }
+
+    .orders-form .select-slot-button {
+        width: 100px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        transition: background-color 0.3s ease;
+    }
+
+        .orders-form .select-slot-button:hover {
+            background-color: #2878b2;
+        }
+
+    .orders-form .selected-info p {
+        margin: 10px 5px;
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .orders-form label {
+        font-weight: bold;
+    }
+
+    .orders-form .vet-selection select {
+        width: 1800px;
+    }
+
+    .orders-form .vet-selection label {
+        width: 200px;
+        height: 30px;
+        justify-content: center;
+    }
+
+    .orders-form .vet-selection {
+        align-content: flex-start;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .orders-form .service-selection {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+        .orders-form .service-selection label {
+            width: 200px;
+            height: 30px;
+            justify-content: center;
+        }
+
+        .orders-form .service-selection select {
+            width: 1800px;
+        }
+
+    .orders-form .selected-service-table {
+        margin-top: 20px;
+    }
+
+        .orders-form .selected-service-table table th, td {
+            padding: 10px;
+        }
+
+        .orders-form .selected-service-table table button {
+            background: red;
+        }
+
+    .orders-form .use-my-address {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+        height: 50px;
+        align-content:flex-start;
+        margin: 10px;
+    }
+
+        .orders-form .use-my-address label {
+            width: auto;
+            text-align: center;
+        }
+
+        .orders-form .use-my-address input {
+            width: auto;
+        }
+
+    .orders-form .address-input{
+        display: flex;
+        flex-direction:row;
+    }
+    .orders-form .address-input select{
+        margin: 10px;
+        height: 30px;
+        width: 200px;
+    }
+
+    .orders-form .address-input input{
+        border:
+    }
+
+    .orders-form .vet-selection
+
+    .orders-form select,
+    .orders-form input[type="number"],
+    .orders-form input[type="text"] {
+        padding: 8px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 300px;
+        margin-top: 5px;
+    }
+
+    .orders-form .payment-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .orders-form .booking-button {
+        background-color: #2ecc71;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+        .orders-form .booking-button:hover {
+            background-color: #27ae60;
+        }
+
+@media (max-width: 768px) {
+    .orders-form .orders-title {
+        font-size: 1.6rem;
+    }
+
+    .orders-form .slot-table th, .orders-form .slot-table td {
+        padding: 8px;
+    }
+}
